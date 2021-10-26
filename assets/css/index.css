@@ -22,6 +22,10 @@ h1{
    color: white;
    font-family: serif;
 }
+@media screen and (max-width:780px) {
+   h1{font-size: 35px;
+   }
+}
 a{
    color: white;
 }
@@ -40,6 +44,11 @@ a{
 .drink{
    width: 80vw;
 }
+@media screen and (max-width:780px) {
+   .drink{margin-top: 80px;
+   
+   }
+}
 .aaa{
    display: flex;
    flex-direction: row;
@@ -52,10 +61,16 @@ h2{
    font-family: serif;
    margin: 10px 0;
 }
+@media screen and (max-width:780px) {
+   h2{
+      margin-top: 10px;
+   }
+}
 h3{
    color: white;
    text-align: center;
    background-color: darkred;
+   margin-top: 10px;
 }
 .beer{
    color: white;
@@ -68,6 +83,13 @@ h3{
 iframe{
    height: 350px;
    width: 600px;
+}
+@media screen and (max-width:780px) {
+   iframe{
+      width: 200px;
+      height: 180px;
+   }
+
 }
 .poti{
    list-style:square ;
@@ -86,3 +108,4 @@ p{
    border-top: darkred 1px solid;
    margin-top: 40px;
 }
+
